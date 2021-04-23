@@ -1,3 +1,23 @@
 {
-    "message": { "text": "Hello from the db!" }
+    "message": { "text": "Hello from the db!" },
+    "events": [
+        {
+            "id": 1,
+            "name": "Palestra na prefeitura",
+            "start_date": "10:30 23-04-2021",
+            "user": {
+                "id": "1",
+                "name": "João"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Visita à praça",
+            "start_date": "16:10 29-04-2021",
+            "user": {
+                "id": "2",
+                "name": "Maria"
+            }
+        }
+    ]
 }
